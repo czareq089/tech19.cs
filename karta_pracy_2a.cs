@@ -45,6 +45,8 @@ else if (l == m)
         Console.WriteLine("Równe są liczba 2 i liczba 3");
 else if (k == m)
         Console.WriteLine("Równe są liczba 1 i liczba 3");   
+else 
+        Console.Writeline("Nie ma równych liczb");
 */
 
 /* 4
