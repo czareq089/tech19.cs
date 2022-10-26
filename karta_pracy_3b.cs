@@ -19,7 +19,6 @@ Console.WriteLine();
 
 
 //3
-Console.WriteLine("Zadanie 3");
 for (int i = 1000; i < 10000; i++)
 {
     if (i % 379 == 0)
