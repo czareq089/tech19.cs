@@ -1,4 +1,4 @@
-﻿/*//1
+﻿//1
 int n = int.Parse(Console.ReadLine());
 
 for (int i = 0; i < n; i++)
@@ -42,7 +42,7 @@ for (int i = 1; i < n; i++)
     m = int.Parse(Console.ReadLine());
     suma = suma - m;
 }
-Console.WriteLine(suma);*/
+Console.WriteLine(suma);
 
 
 //6
