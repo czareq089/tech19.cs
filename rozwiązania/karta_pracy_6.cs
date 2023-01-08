@@ -63,3 +63,50 @@ Console.WriteLine(suma);
 Console.WriteLine(ilosc);
 
 
+
+
+//6
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+
+if (n > 5)
+{
+	Console.WriteLine("Out of range");
+}
+else
+{
+	for (int i = 0; i < (n * 20); i++)
+	{
+		if (i % 19 == 0)
+		{
+			suma += i;
+		}
+	}
+	Console.WriteLine(suma);
+}
+
+
+
+
+//7 nie zrobione (nie działa
+int n = int.Parse(Console.ReadLine());
+int suma = 0;
+int ilosc = 0;
+for (int i = 999; i < 100; i--)
+{
+	if (i % 37 == 0)
+	{
+		ilosc++;
+		suma += i;
+	}
+	if (ilosc == n)
+	{
+		Console.WriteLine(suma);
+		break;
+	}
+	else
+	{
+		Console.WriteLine("Out of range");
+	}
+}
+
